@@ -1,3 +1,12 @@
+html {
+	background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.25), rgba(0, 0, 0, 0.9)),
+		url(./images/aspen-tuba.jpeg);
+	background-size: fit;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
