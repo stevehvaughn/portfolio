@@ -1,11 +1,12 @@
-import React from 'react'
+import { useMousePosition } from './MousePosition';
 
-const LandingPage = () => {
+const LandingPage = () => {     
+    const position = useMousePosition()
+    
     return (
         <div>
             <h1>Steve Vaughn</h1>
-            <h3>Full Stack Software Engineer</h3>
-            <h3>Professional Musician</h3>
+            <h1>{position.x <= position.innerWidth/2 ? 'Professional Musician' : 'Full Stack Software Engineer'}</h1>
         </div>
     )
 }

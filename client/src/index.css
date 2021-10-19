@@ -1,7 +1,19 @@
 html {
+}
+
+.musician-background {
 	background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.25), rgba(0, 0, 0, 0.9)),
 		url(./images/aspen-tuba.jpeg);
 	background-size: fit;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.swe-background {
+	background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.25), rgba(0, 0, 0, 0.9)),
+		url(./images/arpad-czapp-H424WdcQN4Y-unsplash.jpeg);
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
